@@ -15,7 +15,7 @@ In the project settings, provide the following details:
 -	AutoCAD IO Client Secret
 -	Bucket name in your AWS S3 Storage
  
-![Picture](https://github.com/Developer-Autodesk/workflow-windowsservice-autocad.io/blob/master/assets/1.png)
+![Picture](https://github.com/Developer-Autodesk/workflow-windowsservice-autocad.io/blob/master/assets/1.PNG)
  
 Open “App.Config” file and provide AWS credentials. This will allow the sample project to access S3 storage in your AWS profile.
  
@@ -33,4 +33,4 @@ Start the windows service. To do this from the Run windows, type services.msc an
 Copy any drawing to the watched folder (C:\Temp by default). 
 After some time, a PDF of the same name should be available in the watched folder.
 
-![Picture](https://github.com/Developer-Autodesk/workflow-windowsservice-autocad.io/blob/master/assets/4.png)
+![Picture](https://github.com/Developer-Autodesk/workflow-windowsservice-autocad.io/blob/master/assets/4.PNG)
