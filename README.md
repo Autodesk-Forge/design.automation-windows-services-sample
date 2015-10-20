@@ -1,7 +1,7 @@
 workflow-windowsservice-autocad.io
 ==================================
 
-Windows service sample to plot a drawing placed in a folder using AutoCAD IO
+Windows service sample to plot a drawing placed in a folder using AutoCAD IO V2
 
 As this sample includes a reference to "library-dotnet-autocad.io", please build
 that sample following the instruction provided in that sample. Here is the link :
