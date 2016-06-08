@@ -11,20 +11,20 @@
 Windows service sample to plot a drawing placed in a folder using Design Automation API
  
 ##Dependencies
-* As this sample includes a reference to *library-dotnet-autocad.io*, please build that sample following the instruction provided in that sample. Here is the link :https://github.com/Developer-Autodesk/library-dotnet-autocad.io.
+* As this sample includes a reference to  [design.automation-.net-library](https://github.com/Developer-Autodesk/design.automation-.net-library), please build that sample firstly  
 * Visual Studio 2012. 2013 or 2015 should be also fine, but has not yet been tested.
 * Get [credentials of AWS](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) and create one S3 bucket
 * Get your credentials for Design Automation API at http://developer.autodesk.com
 
 ##Setup/Usage Instructions
-* Build the library project *library-dotnet-autocad.io*
+* Build the library project [design.automation-.net-library](https://github.com/Developer-Autodesk/design.automation-.net-library)
 * Open the PlotToPDFService sample project in Visual Studio 2012
 * Restore the packages of the project by [NuGet](https://www.nuget.org/). The simplest way is to Projects tab >> Enable NuGet Package Restore. Then right click the project>>"Manage NuGet Packages for Solution" >> "Restore" (top right of dialog)
-* Add other missing references and the library (AutoCADIOUtil) of *library-dotnet-autocad.io*
+* Add other missing references and the library (AutoCADIOUtil) of [design.automation-.net-library](https://github.com/Developer-Autodesk/design.automation-.net-library)
 * In the project settings, provide the following details:
  * Path to a local folder in your system that contains AutoCAD drawings.
- * AutoCAD IO Client Id
- * AutoCAD IO Client Secret
+ * Design Automation Client Id
+ * Design Automation Client Secret
  * Bucket name in your AWS S3 Storage
  
 ![Picture](./assets/1.PNG)
