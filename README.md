@@ -43,7 +43,7 @@ Windows service sample to plot a drawing placed in a folder using Design Automat
 
 * You may need to switch to "[Log on local system account" of the service if you hit an error of "Access Denied".
 
-![Picture](./assets/3.png)
+![Picture](./assets/winservlogon.png)
 
 * Copy any drawing to the watched folder (C:\Temp by default). After some time, a PDF of the same name should be available in the watched folder.
 
