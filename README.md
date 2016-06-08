@@ -1,20 +1,20 @@
-Sample of Windows Service by Design Automation (called AutoCAD IO in the past)
-==================================
+# Sample of Windows Service by Design Automation API
+(Formely AutoCAD I/O)
 
 [![.net](https://img.shields.io/badge/.net-4.5-green.svg)](http://www.microsoft.com/en-us/download/details.aspx?id=30653)
 [![odata](https://img.shields.io/badge/odata-4.0-yellow.svg)](http://www.odata.org/documentation/)
-[![ver](https://img.shields.io/badge/AutoCAD.io-2.0.0-blue.svg)](https://developer.autodesk.com/api/autocadio/v2/)
+[![ver](https://img.shields.io/badge/Design%20Automation%20API-2.0-blue.svg)](https://developer.autodesk.com/api/autocadio/v2/)
 [![visual studio](https://img.shields.io/badge/Visual%20Studio-2012%7C2013-brightgreen.svg)](https://www.visualstudio.com/)
 [![License](http://img.shields.io/:license-mit-red.svg)](http://opensource.org/licenses/MIT)
 
 ##Description
-Windows service sample to plot a drawing placed in a folder using Design Automation (called AutoCAD IO in the past)
+Windows service sample to plot a drawing placed in a folder using Design Automation API
  
 ##Dependencies
 * As this sample includes a reference to *library-dotnet-autocad.io*, please build that sample following the instruction provided in that sample. Here is the link :https://github.com/Developer-Autodesk/library-dotnet-autocad.io.
 * Visual Studio 2012. 2013 or 2015 should be also fine, but has not yet been tested.
 * Get [credentials of AWS](http://docs.aws.amazon.com/general/latest/gr/aws-security-credentials.html) and create one S3 bucket
-* Get your credentials of Design Automation at http://developer.autodesk.com
+* Get your credentials for Design Automation API at http://developer.autodesk.com
 
 ##Setup/Usage Instructions
 * Build the library project *library-dotnet-autocad.io*
