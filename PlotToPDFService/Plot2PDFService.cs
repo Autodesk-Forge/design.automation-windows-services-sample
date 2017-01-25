@@ -16,7 +16,7 @@ namespace PlotToPDFService
         private FileSystemWatcher _folderWatcher = null;
 
         // change the folder path to watch
-        private static String _folderPath = @"C:\Temp";
+        private static String _folderPath = Properties.Settings.Default.DrawingFolder;
 
         private static EventLog _log;
         string logsource = "Plot2PDFService";
@@ -96,6 +96,8 @@ namespace PlotToPDFService
                     _log.WriteEntry("Workitem result url is empty !");
             }
         }
+
+
 
         protected override void OnStart(string[] args)
         {

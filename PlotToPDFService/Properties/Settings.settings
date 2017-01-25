@@ -3,13 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="AutoCADIOClientId" Type="System.String" Scope="User">
-      <Value Profile="(Default)"></Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="AutoCADIOClientSecret" Type="System.String" Scope="User">
-      <Value Profile="(Default)"></Value>
+      <Value Profile="(Default)" />
     </Setting>
     <Setting Name="S3BucketName" Type="System.String" Scope="User">
-      <Value Profile="(Default)">acesbucket</Value>
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="DrawingFolder" Type="System.String" Scope="User">
+      <Value Profile="(Default)">c:\temp</Value>
     </Setting>
   </Settings>
 </SettingsFile>
