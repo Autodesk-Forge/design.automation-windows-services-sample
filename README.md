@@ -38,7 +38,7 @@ Windows service sample to plot a drawing placed in a folder using Design Automat
 * Build the sample project
 
 * Install the windows service using “installutil” in the command line of Visual Studio. To do this open Visual studio command prompt and run : 
-     `installutil <path to PlotToPDFService.exe>
+     installutil < path to PlotToPDFService.exe >
 
 * Start the windows service. To do this from the Run windows, type services.msc and look for Plot2PDFService and start it.
 
