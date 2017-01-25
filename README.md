@@ -4,7 +4,7 @@
 [![.net](https://img.shields.io/badge/.net-4.5-green.svg)](http://www.microsoft.com/en-us/download/details.aspx?id=30653)
 [![odata](https://img.shields.io/badge/odata-4.0-yellow.svg)](http://www.odata.org/documentation/)
 [![ver](https://img.shields.io/badge/Design%20Automation%20API-2.0-blue.svg)](https://developer.autodesk.com/api/autocadio/v2/)
-[![visual studio](https://img.shields.io/badge/Visual%20Studio-2012%7C2013-brightgreen.svg)](https://www.visualstudio.com/)
+[![visual studio](https://img.shields.io/badge/Visual%20Studio-2012%7C2013%7C2015-blue.svg)](https://www.visualstudio.com/)
 [![License](http://img.shields.io/:license-mit-red.svg)](http://opensource.org/licenses/MIT)
 
 ##Description
@@ -19,7 +19,9 @@ Windows service sample to plot a drawing placed in a folder using Design Automat
 ##Setup/Usage Instructions
 * Build the library project [design.automation-.net-library](https://github.com/Developer-Autodesk/design.automation-.net-library)
 * Open the PlotToPDFService sample project in Visual Studio 2012
-* Restore the packages of the project by [NuGet](https://www.nuget.org/). The simplest way is to Projects tab >> Enable NuGet Package Restore. Then right click the project>>"Manage NuGet Packages for Solution" >> "Restore" (top right of dialog)
+* Restore the packages of the project by [NuGet](https://www.nuget.org/). The simplest way is
+  * VS2012: Projects tab >> Enable NuGet Package Restore. Then right click the project>>"Manage NuGet Packages for Solution" >> "Restore" (top right of dialog)
+  * VS2013/VS2015:  right click the project>>"Manage NuGet Packages for Solution" >> "Restore" (top right of dialog)
 * Add other missing references and the library (AutoCADIOUtil) of [design.automation-.net-library](https://github.com/Developer-Autodesk/design.automation-.net-library)
 * In the project settings, provide the following details:
  * Path to a local folder in your system that contains AutoCAD drawings.
@@ -35,7 +37,8 @@ Windows service sample to plot a drawing placed in a folder using Design Automat
  
 * Build the sample project
 
-* Install the windows service using “installutil”. To do this open Visual studio command prompt and run : installutil <path to PlotToPDF.exe”
+* Install the windows service using “installutil” in the command line of Visual Studio. To do this open Visual studio command prompt and run : 
+     `installutil <path to PlotToPDFService.exe>
 
 * Start the windows service. To do this from the Run windows, type services.msc and look for Plot2PDFService and start it.
 
