@@ -42,7 +42,7 @@ Windows service sample to plot a drawing placed in a folder using Design Automat
 
 * Start the windows service. To do this from the Run windows, type services.msc and look for Plot2PDFService and start it.
 
-![Picture](./assets/3.png)
+![thumbnail](./assets/3.png)
 
 * You may need to switch to "[Log on local system account" of the service if you hit an error of "Access Denied".
 
